@@ -10,8 +10,8 @@ export default function Home() {
         {/* <!-- header section --> */}
 
         <Header />
+        <Footer />
       </body>
-      <Footer />
     </>
   );
 }

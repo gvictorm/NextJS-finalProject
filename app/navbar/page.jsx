@@ -8,7 +8,7 @@ export default function Navbar() {
           <a className="text-white ">
             <span className=" text-3xl">The Puerto Rico Library</span>
           </a>
-          <ul className="flex flex-wrap text-lg text-white ">
+          <ul className="flex flex-wrap text-xlg text-white ">
             <li className="mr-4 hover:text-black hover:underline">
               <Link href="/home">Home</Link>
             </li>
@@ -18,8 +18,11 @@ export default function Navbar() {
             <li className="mr-4 hover:text-black hover:underline">
               <Link href="/catalog">Catalog</Link>
             </li>
-            <li className="hover:text-black hover:underline">
+            <li className="hover:text-black mr-4 hover:underline">
               <Link href="/contactUs">Contact Us</Link>
+            </li>
+            <li className="hover:text-black hover:underline">
+              <Link href="/login">Login</Link>
             </li>
           </ul>
         </div>
