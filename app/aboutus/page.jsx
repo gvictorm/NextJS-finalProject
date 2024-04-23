@@ -1,5 +1,6 @@
 import Background from "../background/page";
 import Navbar from "../navbar/page";
+import Footer from "../footer/page";
 export default function AboutUs() {
   return (
     <main>
@@ -30,6 +31,7 @@ export default function AboutUs() {
           </div>
         </div>
       </section>
+      <Footer />
     </main>
   );
 }

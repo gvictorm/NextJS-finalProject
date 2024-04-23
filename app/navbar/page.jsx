@@ -15,15 +15,11 @@ export default function Navbar() {
             <li className="mr-4 hover:text-black hover:underline">
               <Link href="/aboutus">About Us</Link>
             </li>
-            <li>
-              <a href="#" className="mr-4 hover:text-black hover:underline">
-                Catalog
-              </a>
+            <li className="mr-4 hover:text-black hover:underline">
+              <Link href="/catalog">Catalog</Link>
             </li>
-            <li>
-              <a href="#" className="hover:text-black hover:underline">
-                Contact Us
-              </a>
+            <li className="hover:text-black hover:underline">
+              <Link href="/contactUs">Contact Us</Link>
             </li>
           </ul>
         </div>
