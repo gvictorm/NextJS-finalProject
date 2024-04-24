@@ -1,7 +1,7 @@
 import Link from "next/link";
 export default function Footer() {
   return (
-    <>
+    <div>
       {/* <!-- Footer --> */}
       <footer className="navbgColor p-3 items-center bottom-0 sticky">
         <div className="container my-2 mx-auto">
@@ -28,6 +28,6 @@ export default function Footer() {
           </div>
         </div>
       </footer>
-    </>
+    </div>
   );
 }

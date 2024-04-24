@@ -5,7 +5,7 @@ import Footer from "../footer/page";
 
 export default function LoginPage() {
   return (
-    <body>
+    <div>
       <Navbar />
       <Background />
       <section className="mainbgColor px-10 py-7 mx-auto my-52 w-1/2 rounded-md">
@@ -50,6 +50,6 @@ export default function LoginPage() {
         </div>
       </section>
       <Footer />
-    </body>
+    </div>
   );
 }

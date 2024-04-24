@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <>
+    <div>
       <nav className="navbgColor font-serif sticky z-10 top-0">
         <div className=" container mx-auto flex flex-wrap justify-between items-center p-4 ">
           <a className="text-white ">
@@ -27,6 +27,6 @@ export default function Navbar() {
           </ul>
         </div>
       </nav>
-    </>
+    </div>
   );
 }

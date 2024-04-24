@@ -3,14 +3,14 @@ import Navbar from "../navbar/page";
 import Footer from "../footer/page";
 export default function AboutUs() {
   return (
-    <main>
+    <div>
       <Background />
       <Navbar />
       <section className="mainbgColor px-10 my-52 mx-auto lg:w-1/2 rounded-md">
-        <div className="text-white font-serif  ">
+        <div className="text-white font-serif">
           <div className="grid grid-col-1">
             <div className="mb-10">
-              <h2 className="text-5xl mt-20 text-center ">
+              <h2 className="text-5xl mt-20 text-center">
                 Welcome to The Puerto Rico Library
               </h2>
             </div>
@@ -32,6 +32,6 @@ export default function AboutUs() {
         </div>
       </section>
       <Footer />
-    </main>
+    </div>
   );
 }

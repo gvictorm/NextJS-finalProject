@@ -3,7 +3,7 @@ import Background from "../background/page";
 
 export default function Catalog() {
   return (
-    <body>
+    <div>
       <Navbar />
       <Background />
       <section>
@@ -50,7 +50,7 @@ export default function Catalog() {
               </ul>
             </div>
 
-            <div className="bg-white shadow-lg p-4  border-4 borderbooksColor rounded-lg">
+            <div className="bg-white shadow-lg p-4 border-4 borderbooksColor rounded-lg">
               <h4 className="font-serif text-sm p-1 font-semibold">
                 Estampas coloniales
               </h4>
@@ -67,7 +67,7 @@ export default function Catalog() {
               </ul>
             </div>
 
-            <div className="bg-white shadow-lg p-4  border-4 borderbooksColor rounded-lg">
+            <div className="bg-white shadow-lg p-4 border-4 borderbooksColor rounded-lg">
               <h4 className="font-serif text-sm p-1 font-semibold">
                 Indice cultural
               </h4>
@@ -147,6 +147,6 @@ export default function Catalog() {
           </div>
         </div>
       </footer>
-    </body>
+    </div>
   );
 }

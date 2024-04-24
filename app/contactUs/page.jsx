@@ -3,7 +3,7 @@ import Footer from "../footer/page";
 import Navbar from "../navbar/page";
 export default function Contact() {
   return (
-    <body>
+    <div>
       <Navbar />
       <Background />
       <section className="mainbgColor px-10 py-7 my-56 mx-auto w-1/2 rounded-md">
@@ -37,6 +37,6 @@ export default function Contact() {
         </div>
       </section>
       <Footer />
-    </body>
+    </div>
   );
 }
