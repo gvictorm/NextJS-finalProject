@@ -1,8 +1,6 @@
 "use client";
 import { useCallback, useEffect, useState } from "react";
 import { createClient } from "@/utils/supabase/client";
-import Navbar from "../navbar/page";
-import Background from "../background/page";
 
 export default function AccountForm({ user }) {
   const supabase = createClient();

@@ -1,7 +1,7 @@
 import Navbar from "../navbar/page";
 import Background from "../background/page";
 
-export default function () {
+export default function Catalog() {
   return (
     <body>
       <Navbar />
