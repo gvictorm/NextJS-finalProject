@@ -6,18 +6,18 @@ export default function AboutUs() {
     <main>
       <Background />
       <Navbar />
-      <section class="mainbgColor px-10 my-52 mx-auto lg:w-1/2 rounded-md">
-        <div class="text-white font-serif  ">
-          <div class="grid grid-col-1">
-            <div class="mb-10">
-              <h2 class="text-5xl mt-20 text-center ">
+      <section className="mainbgColor px-10 my-52 mx-auto lg:w-1/2 rounded-md">
+        <div className="text-white font-serif  ">
+          <div className="grid grid-col-1">
+            <div className="mb-10">
+              <h2 className="text-5xl mt-20 text-center ">
                 Welcome to The Puerto Rico Library
               </h2>
             </div>
             {/* <!-- information about puerto rican library --> */}
-            <div class="py-20">
-              <h3 class="mb-5 text-2xl">About Us</h3>
-              <p class="text-justify">
+            <div className="py-20">
+              <h3 className="mb-5 text-2xl">About Us</h3>
+              <p className="text-justify">
                 The Puerto Rican Library is an online bookshop that specializes
                 in literature, academic research, and the history of Puerto
                 Rico. This bookshop aims to offer a rich selection of
