@@ -1,4 +1,3 @@
-import React from "react";
 import Background from "../background/page";
 
 export default function Header() {

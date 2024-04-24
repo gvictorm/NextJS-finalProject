@@ -13,9 +13,9 @@ export default function Catalog() {
             Catalog
           </h2>
           {/* <!-- narrative: first category of the catalog --> */}
-          <a href="#">
-            <h3 className="text-white font-serif my-5 text-2xl">Narrative</h3>
-          </a>
+
+          <h3 className="text-white font-serif my-5 text-2xl">Narrative</h3>
+
           <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
             {/* <!-- each book of narrative --> */}
             <div className="bg-white shadow-lg p-4 border-4 borderbooksColor rounded-lg">
@@ -29,11 +29,6 @@ export default function Catalog() {
 
                 <li className="mb-2">
                   <p>Year: 1962</p>
-                </li>
-                <li>
-                  <a href="#" id="anchorcolor">
-                    See more
-                  </a>
                 </li>
               </ul>
             </div>
@@ -52,11 +47,6 @@ export default function Catalog() {
                 <li className="mb-2">
                   <p>Year: 1976</p>
                 </li>
-                <li>
-                  <a href="#" id="anchorcolor">
-                    See more
-                  </a>
-                </li>
               </ul>
             </div>
 
@@ -73,11 +63,6 @@ export default function Catalog() {
                 </li>
                 <li className="mb-2">
                   <p>Year: 1954</p>
-                </li>
-                <li>
-                  <a href="#" id="anchorcolor">
-                    See more
-                  </a>
                 </li>
               </ul>
             </div>
@@ -96,11 +81,6 @@ export default function Catalog() {
                 <li className="mb-2">
                   <p>Year: 1962</p>
                 </li>
-                <li>
-                  <a href="#" id="anchorcolor">
-                    See more
-                  </a>
-                </li>
               </ul>
             </div>
 
@@ -117,11 +97,6 @@ export default function Catalog() {
                 </li>
                 <li className="mb-2">
                   <p>Year: 1941</p>
-                </li>
-                <li>
-                  <a href="#" id="anchorcolor">
-                    See more
-                  </a>
                 </li>
               </ul>
             </div>
@@ -140,11 +115,6 @@ export default function Catalog() {
                 <li className="mb-2">
                   <p>Year: 1979</p>
                 </li>
-                <li>
-                  <a href="#" id="anchorcolor" className=" ">
-                    See more
-                  </a>
-                </li>
               </ul>
             </div>
           </div>
@@ -160,24 +130,24 @@ export default function Catalog() {
             </p>
             <ul className="mx-auto flex flex-wrap">
               <li>
-                <a href="#" className="mr-4 hover:text-white hover:underline">
+                <a href="" className="mr-4 hover:text-white hover:underline">
                   Facebook
                 </a>
               </li>
               <li>
-                <a href="#" className="mr-4 hover:text-white hover:underline">
+                <a href="" className="mr-4 hover:text-white hover:underline">
                   Instagram
                 </a>
               </li>
             </ul>
             <ul>
               <li>
-                <a href="#" className="mr-4">
+                <a href="" className="mr-4">
                   prlibrary@gmail.com
                 </a>
               </li>
               <li>
-                <a href="#" className="mr-4">
+                <a href="" className="mr-4">
                   787-208-5555
                 </a>
               </li>
