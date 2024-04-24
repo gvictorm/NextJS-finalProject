@@ -62,7 +62,7 @@ export default function AccountForm({ user }) {
   }
 
   return (
-    <div className="form-widget flex flex-col ">
+    <div className="form-widget flex flex-col">
       <div className="">
         <label htmlFor="email">Email</label>
         <input id="email" type="text" value={user?.email} disabled />

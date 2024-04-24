@@ -15,7 +15,10 @@ export async function POST(req) {
   }
 
   revalidatePath("/", "layout");
-  return NextResponse.redirect(new URL("/login", req.url), {
-    status: 302,
-  });
+  return NextResponse.redirect(
+    new URL("https://main.d1o0caum6tccx.amplifyapp.com/", req.url),
+    {
+      status: 302,
+    }
+  );
 }
