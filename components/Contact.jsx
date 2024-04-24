@@ -5,8 +5,8 @@ import Navbar from "@/components/Navbar";
 export default function Contact() {
   return (
     <div>
-      <Navbar />
       <Background />
+      <Navbar />
       <section className="mainbgColor px-10 py-7 my-56 mx-auto w-1/2 rounded-md">
         <div className="text-white text-center font-serif">
           <h2 className="py-10 text-4xl">Contact Us</h2>

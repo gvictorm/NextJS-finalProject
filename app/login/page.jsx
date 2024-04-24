@@ -6,8 +6,8 @@ import Footer from "@/components/Footer";
 export default function LoginPage() {
   return (
     <div>
-      <Navbar />
       <Background />
+      <Navbar />
       <section className="mainbgColor px-10 py-7 mx-auto my-52 w-1/2 rounded-md">
         <div className="text-white text-center font-serif">
           <h2 className="py-10 text-4xl">Login</h2>

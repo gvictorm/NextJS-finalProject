@@ -5,8 +5,9 @@ import Background from "@/components/Background";
 export default function Catalog() {
   return (
     <div>
-      <Navbar />
       <Background />
+      <Navbar />
+
       <section>
         <div className="container py-10 px-10 my-20 mx-auto catalogbgColor rounded-lg">
           {/* <!-- using animation on header --> */}
