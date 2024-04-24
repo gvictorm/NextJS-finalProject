@@ -22,13 +22,13 @@ export default function LoginPage() {
                 required
               />
             </div>
-            <div className="block  p-3 mb-4 text-2xl ">
+            <div className="block p-3 mb-4 text-2xl ">
               <label htmlFor="password">Password:</label>
               <input
                 id="password"
                 name="password"
                 type="password"
-                className="w-1/2 rounded-md ml-1"
+                className="w-1/2 rounded-md ml-1 text-black"
                 required
               />
             </div>

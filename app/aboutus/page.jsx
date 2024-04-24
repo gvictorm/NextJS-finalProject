@@ -6,7 +6,7 @@ export default function AboutUs() {
     <main>
       <Background />
       <Navbar />
-      <section class="mainbgColor px-10 my-56 mx-auto lg:w-1/2 rounded-md">
+      <section class="mainbgColor px-10 my-52 mx-auto lg:w-1/2 rounded-md">
         <div class="text-white font-serif  ">
           <div class="grid grid-col-1">
             <div class="mb-10">

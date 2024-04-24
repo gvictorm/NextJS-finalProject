@@ -4,14 +4,12 @@ import Footer from "../footer/page";
 export default function Home() {
   return (
     <>
-      <body>
-        <Navbar />
+      <Navbar />
 
-        {/* <!-- header section --> */}
+      {/* <!-- header section --> */}
 
-        <Header />
-        <Footer />
-      </body>
+      <Header />
+      <Footer />
     </>
   );
 }
