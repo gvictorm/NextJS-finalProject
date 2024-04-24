@@ -1,7 +1,7 @@
 import { login, signup } from "./action";
-import Navbar from "../navbar/page";
-import Background from "../background/page";
-import Footer from "../footer/page";
+import Navbar from "@/components/Navbar";
+import Background from "@/components/Background";
+import Footer from "@/components/Footer";
 
 export default function LoginPage() {
   return (

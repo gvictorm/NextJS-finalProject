@@ -1,5 +1,5 @@
-"use server";
-import Home from "./home/page";
+"use client";
+import Home from "@/components/Home";
 export default async function Page() {
   return (
     <div>

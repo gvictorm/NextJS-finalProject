@@ -1,3 +1,4 @@
+"use client";
 import Link from "next/link";
 
 export default function Navbar() {
@@ -10,16 +11,16 @@ export default function Navbar() {
           </a>
           <ul className="flex flex-wrap text-xlg text-white ">
             <li className="mr-4 hover:text-black hover:underline">
-              <Link href="/home">Home</Link>
+              <Link href="/">Home</Link>
             </li>
             <li className="mr-4 hover:text-black hover:underline">
-              <Link href="/aboutus">About Us</Link>
+              <Link href="/about">About Us</Link>
             </li>
             <li className="mr-4 hover:text-black hover:underline">
               <Link href="/catalog">Catalog</Link>
             </li>
             <li className="hover:text-black mr-4 hover:underline">
-              <Link href="/contactUs">Contact Us</Link>
+              <Link href="/contact">Contact Us</Link>
             </li>
             <li className="hover:text-black hover:underline">
               <Link href="/login">Login</Link>

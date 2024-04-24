@@ -1,6 +1,7 @@
-import Background from "../background/page";
-import Navbar from "../navbar/page";
-import Footer from "../footer/page";
+"use client";
+import Background from "@/components/Background";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 export default function AboutUs() {
   return (
     <div>

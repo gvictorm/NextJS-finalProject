@@ -1,4 +1,5 @@
-import Background from "../background/page";
+"use client";
+import Background from "@/components/Background";
 
 export default function Header() {
   return (

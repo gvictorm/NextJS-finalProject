@@ -1,6 +1,7 @@
-import Background from "../background/page";
-import Footer from "../footer/page";
-import Navbar from "../navbar/page";
+"use client";
+import Background from "@/components/Background";
+import Footer from "@/components/Footer";
+import Navbar from "@/components/Navbar";
 export default function Contact() {
   return (
     <div>
