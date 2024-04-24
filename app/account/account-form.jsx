@@ -8,7 +8,6 @@ export default function AccountForm({ user }) {
   const [fullname, setFullname] = useState(null);
   const [username, setUsername] = useState(null);
   const [website, setWebsite] = useState(null);
-  const [avatar_url, setAvatarUrl] = useState(null);
 
   const getProfile = useCallback(async () => {
     try {

@@ -10,7 +10,7 @@ export default function Navbar() {
           </a>
           <ul className="flex flex-wrap text-xlg text-white ">
             <li className="mr-4 hover:text-black hover:underline">
-              <Link href="/">Home</Link>
+              <Link href="/home">Home</Link>
             </li>
             <li className="mr-4 hover:text-black hover:underline">
               <Link href="/aboutus">About Us</Link>
