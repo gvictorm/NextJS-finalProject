@@ -129,27 +129,19 @@ export default function Catalog() {
               &copy; 2024 The Puerto Rico Library
             </p>
             <ul className="mx-auto flex flex-wrap">
-              <li>
-                <a href="" className="mr-4 hover:text-white hover:underline">
-                  Facebook
-                </a>
+              <li className="mr-4 hover:text-white hover:underline">
+                <a href="https://www.facebook.com/">Facebook</a>
               </li>
-              <li>
-                <a href="" className="mr-4 hover:text-white hover:underline">
-                  Instagram
-                </a>
+              <li className="mr-4 hover:text-white hover:underline">
+                <a href="https://www.instagram.com/">Instagram</a>
               </li>
             </ul>
             <ul>
               <li>
-                <a href="" className="mr-4">
-                  prlibrary@gmail.com
-                </a>
+                <p className="mr-4">prlibrary@gmail.com</p>
               </li>
               <li>
-                <a href="" className="mr-4">
-                  787-208-5555
-                </a>
+                <p className="mr-4">787-208-5555</p>
               </li>
             </ul>
           </div>
