@@ -1,10 +1,12 @@
 "use client";
 import Background from "@/components/Background";
+import Navbar from "@/components/Navbar";
 
 export default function Header() {
   return (
     <div>
       <Background />
+      <Navbar />
       <div className="flex flex-col items-center justify-center ">
         <div className="relative mx-auto my-56">
           <div className="text-white font-serif p-5">
