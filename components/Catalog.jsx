@@ -21,9 +21,8 @@ export default function Catalog() {
           <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
             {/* <!-- each book of narrative --> */}
             <div className="bg-white shadow-lg p-4 border-4 borderbooksColor rounded-lg">
-              <h4 className="font-serif text-sm p-1 font-semibold">
-                Papeles de pandora
-              </h4>
+              <img src="enbabia-padro.jpeg" alt="book_img" className="mb-2" />
+              <h4 className="font-serif text-sm p-1 font-semibold">En babia</h4>
               <ul className="text-sm font-serif p-2">
                 <li className="mb-2">
                   <p>Author: José de Diego Padró</p>
@@ -36,6 +35,7 @@ export default function Catalog() {
             </div>
 
             <div className="bg-white shadow-lg p-4 border-4 borderbooksColor rounded-lg">
+              <img src="pandora-ferre.jpeg" alt="book_img" className="mb-2" />
               <h4 className="font-serif text-sm p-1 font-semibold">
                 Papeles de pandora
               </h4>
@@ -53,6 +53,7 @@ export default function Catalog() {
             </div>
 
             <div className="bg-white shadow-lg p-4 border-4 borderbooksColor rounded-lg">
+              <img src="estampas-todd.jpeg" alt="book_img" classNmae="mb-2" />
               <h4 className="font-serif text-sm p-1 font-semibold">
                 Estampas coloniales
               </h4>
@@ -70,6 +71,11 @@ export default function Catalog() {
             </div>
 
             <div className="bg-white shadow-lg p-4 border-4 borderbooksColor rounded-lg">
+              <img
+                src="volumen-1-nilita.jpeg"
+                alt="book_img"
+                className="mb-2"
+              />
               <h4 className="font-serif text-sm p-1 font-semibold">
                 Indice cultural
               </h4>
@@ -87,6 +93,11 @@ export default function Catalog() {
             </div>
 
             <div className="bg-white shadow-lg p-4 border-4 borderbooksColor rounded-lg">
+              <img
+                src="aclaraciones-pedreira.jpeg"
+                alt="book_img"
+                className="mb-2"
+              />
               <h4 className="font-serif text-sm p-1 font-semibold">
                 Aclaraciones y críticas
               </h4>
@@ -104,6 +115,11 @@ export default function Catalog() {
             </div>
 
             <div className="bg-white shadow-lg p-4 border-4 borderbooksColor rounded-lg">
+              <img
+                src="mujerdelmar-ramos.jpeg"
+                alt="book_img"
+                className="mb-2"
+              />
               <h4 className="font-serif text-sm p-1 font-semibold">
                 El cuento de la mujer del mar
               </h4>
