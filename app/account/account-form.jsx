@@ -74,12 +74,18 @@ export default function AccountForm({ user }) {
         </h1>
         <div className="text-white text-center font-serif mb-2">
           <label htmlFor="email">Email: </label>
-          <input id="email" type="text" value={user?.email} disabled />
+          <input
+            className="text-black rounded"
+            id="email"
+            type="text"
+            value={user?.email}
+            disabled
+          />
         </div>
         <div className="text-white text-center font-serif mb-2">
           <label htmlFor="fullName">Full Name: </label>
           <input
-            className="rounded"
+            className="rounded text-black"
             id="fullName"
             type="text"
             value={fullname || ""}
@@ -89,7 +95,7 @@ export default function AccountForm({ user }) {
         <div className="text-white text-center font-serif mb-2">
           <label htmlFor="username">Username: </label>
           <input
-            className="rounded"
+            className="rounded text-black"
             id="username"
             type="text"
             value={username || ""}
@@ -99,7 +105,7 @@ export default function AccountForm({ user }) {
         <div className="text-white text-center font-serif mb-2">
           <label htmlFor="website">Website</label>
           <input
-            className="rounded"
+            className="rounded text-black"
             id="website"
             type="url"
             value={website || ""}
